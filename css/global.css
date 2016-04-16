@@ -1,0 +1,41 @@
+/* дополнительные шрифты */
+@font-face {
+    font-family: 'Plumb-Black'; 
+    src: url('./font/Plumb-Black.eot?') format('eot'), 
+         url('./font/Plumb-Black.woff') format('woff'), 
+         url('./font/Plumb-Black.ttf')  format('truetype'),
+         url('./font/Plumb-Black.svg#Plumb-Black') format('svg');
+}
+@font-face {
+    font-family: 'Plumb-Regular'; 
+    src:    url('./font/Plumb-Regular.ttf');
+}
+@font-face {
+    font-family: 'PlumbCondensed-Regular'; 
+    src:    url('./font/PlumbCondensed-Regular.ttf');
+}
+@font-face {
+    font-family: 'PlumbCondensed-Bold'; 
+    src:    url('./font/PlumbCondensed-Bold.ttf');
+}
+@font-face {
+    font-family: 'Plumb-Medium'; 
+    src:    url('./font/Plumb-Medium.ttf');
+}
+@font-face {
+    font-family: 'Ubuntu-M'; 
+    src:    url('./font/Ubuntu-M.ttf');
+}
+
+/* глобальные настройки */
+* { margin: 0px; padding: 0px; }
+html , 
+body { display: block; background:none #fff; width:100%; }
+.on-center { display:block; margin-left:auto; margin-right:auto; }
+.float-left { float:left;}
+.float-right { float:right; }
+.clr { display:block; width:100%; height:0px; clear:both; }
+/* блок на всю ширину страницы */
+.wide-wrapper-box { display: block; width: 100%; }
+/* основной контейнер страницы */
+.main-content-box { display:block; width:1000px; background:none transparent; }

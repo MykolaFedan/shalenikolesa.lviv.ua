@@ -1,0 +1,188 @@
+/* шапка */
+.header-box {display: block; width: 100%;}
+.header-bg {background:none transparent;}
+/* логотип */
+.header-box .logotype-box { display: block; width: 430px; margin:25px 0px 0px 10px; }
+.header-box .logotype-box .headline { display: block; font-weight: normal; width: 100%; font-family: 'Plumb-Black'; font-weight: normal; font-size:55px; line-height:55px; color:#2e302f; text-transform: uppercase; }
+.header-box .logotype-box .headline .orange { color:#f0a922;   }
+.header-box .logotype-box .headline .second-line { display: block; margin-top:4px; font-weight: normal; font-size:32px; line-height:34px; color: #888;  }
+.header-box .logotype-box .adress { font-family: 'Plumb-Regular'; color: #a0a0a0; font-size: 23px; line-height: 35px; text-align: right; margin-bottom:10px;  }
+/* контакты */
+.header-box .top-contact-box { display: block; width: 350px; margin:10px 10px 0px 0px; }
+.header-box .top-contact-box span , 
+.header-box .top-contact-box a { display: block; width: 100%; }
+.header-box .top-contact-box .adress { font-family: 'Plumb-Regular'; color: #a0a0a0; font-size: 18px; line-height: 18px; text-align: right; }
+.header-box .top-contact-box .phone { font-family: 'Plumb'; font-weight: normal; font-size:20px; line-height:30px; color:#2e302f; margin-top:10px; margin-bottom:10px; text-align: right; }
+.header-box .top-contact-box .call-me-back-button { margin-top: -2px; margin-left: auto; background:url('../images/call-me-back-background.png') no-repeat transparent; width: 230px; height:48px; text-decoration: none; border:0px; color:#fff; font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; line-height:48px; text-transform: uppercase; text-align: center; text-shadow:1px 1px 1px #e46200; }
+
+/* верхняя форма */
+.top-form-box { display: block; width: 100%; padding-top:20px; }
+.top-form-box-bg { background:url('../images/top-form-background.jpg') repeat-x scroll center top transparent; height: 503px; margin-top: 5px; }
+.top-form-box .top-form-headline { display: block; width: 100%; font-family: 'PlumbCondensed-Regular'; color: #fff; font-size: 33px; line-height: 35px; text-align: center; text-transform: uppercase; font-weight: normal; text-shadow:1px 1px 1px #3d3835; }
+.top-form-box .top-form-headline span { font-family: 'PlumbCondensed-Bold'; }
+
+/* левая колонка */
+.top-form-box .left-side-box { display: block; width: 335px; margin:25px 0px 0px 270px; padding-left: 50px; font-family: 'PlumbCondensed-Bold'; color: #2e302f; font-size: 33px; line-height: 33px; text-align: left; text-transform: uppercase; font-weight: normal; }
+.top-form-box .left-side-box .special-headline { position: relative; left: -50px; display: block; font-family: 'PlumbCondensed-Regular'; color: #fff; font-size: 33px; line-height: 33px; text-align: left; text-transform: uppercase; font-weight: normal; }
+.top-form-box .left-side-box .lable-of-the-day { margin-top: 50px; margin-bottom: 15px;  line-height: 50px;}
+.top-form-box .left-side-box .info-box { margin-bottom:0px; }
+.top-form-box .left-side-box .info-box .left { text-align: center; border-right: 1px solid #808080; padding-right: 10px; margin-right: 15px;}
+.top-form-box .left-side-box .info-box .info {line-height: 25px;}
+.top-form-box .left-side-box .info-box .info span { display: block; font-size: 60px; line-height: 60px; margin-top: 6px; }
+.top-form-box .left-side-box .info-box .left span { font-size: 69px; line-height: 69px; margin-bottom: -10px; margin-top: 4px; }
+.top-form-box .left-side-box .time-left { font-family: 'Plumb-Medium'; color: #484848; font-size: 18px; line-height: 18px; text-transform: none; position: relative; top: -9px; left: 10px; }
+/* таймер */
+.top-form-box .timer-box { margin-top: -3px; display: block; width: 325px; height: 120px; background:url('../images/top-form-elements.png') no-repeat scroll -5px -4px transparent; }
+.top-form-box .timer-box .countdown_section {width: 102px; height: 65px; float: left;  text-align: left; margin-left:12px; margin-right:0px; }
+.top-form-box .timer-box .countdown_section .countdown_amount { margin-top: 38px; display: block; width:100%; font-family: 'PlumbCondensed-Bold'; font-weight: normal; font-size:43px; line-height:43px; color:#fff; margin-left:auto; margin-right: auto; text-align: center; }
+.top-form-box .timer-box .countdown_section .caption { display: block; width: 40%; text-align: center; font-family: 'Plumb-Medium'; font-weight: normal; font-size:16px; line-height:16px; color:#2d2d2d; text-transform: none; margin:0 auto; margin-top: 4px; }
+.top-form-box .timer-box .countdown_section:nth-child(2) { width: 75px; font-size: 50px; line-height: 50px; }
+.top-form-box .timer-box .countdown_section:nth-child(2) .countdown_amount { font-size: 50px; line-height: 50px; margin-top: 35px; }
+.top-form-box .timer-box .countdown_section:last-of-type { margin-right: 0px; width: 95px; }
+/* форма */
+.top-form-box .form-box { display: block; width: 325px; margin:40px 10px 0px 0px; }
+.top-form-box .form-box .headline { display: block; width: 100%; text-align: center; font-family: 'PlumbCondensed-Bold'; font-weight: normal; font-size:33px; line-height:40px; color:#2e302f; text-transform: uppercase; margin-bottom: 6px; }
+.top-form-box .form-box form { padding-top: 10px; display: block; width: 100%; height: 225px; margin-top:0px; background:url('../images/top-form-elements.png') no-repeat scroll -6px -135px transparent; }
+.top-form-box .form-box form input { display: block; border:0px; width: 290px; height: 52px; }
+.top-form-box .form-box form .txt { padding:0px 10px 0px 30px; width: 218px; margin-bottom:10px; font-family: 'Plumb-Regular'; font-weight: normal; font-size:20px; line-height:52px; color:#6f7278; background: none transparent; }
+.top-form-box .form-box form .second { background-position: 0px -63px; }
+.top-form-box .form-box form .submit-btn { margin-top:17px; width: 98%; height: 75px; text-align: center; text-decoration: none; color:#fff; font-family: 'Plumb-Black'; font-weight: normal; font-size:25px; line-height:75px; text-transform: uppercase; text-align: center; text-shadow:1px 1px 1px #e46200; cursor: pointer; background: none transparent; }
+
+/* заголовок на странице */
+.page-headline-box { display: block; width: 100%; }
+.page-headline-box h4 { display: block; width: 100%; text-align: center; }
+.page-headline-box h4 { font-family: 'Plumb-Black'; font-weight: normal; font-size:33px; line-height:33px; color:#2e302f; }
+.page-headline-box h4 span { color: #efaa21; }
+
+/* слайдер марок авто */
+.lables-slider-bg {padding-top: 20px; background:url('../images/under-lables-slider-background.png') no-repeat scroll center bottom transparent; padding-bottom: 25px;}
+.lables-slider {margin-top: 20px;display: block; width: 968px; height: 116px; overflow: hidden; }
+.lables-slider-bg .frame-set {display: block; width: 85px; height: 150px;position: relative;margin-top: -150px;z-index: 5;background:url('../images/lables-slider-side-faders.png') repeat-y transparent;}
+.lables-slider-bg .frame-left-side {background-position: left top;}
+.lables-slider-bg .frame-right-side {background-position: right top;}
+
+.str_wrap { overflow:hidden; width:100%; font-size:12px; line-height:16px; position:relative; -moz-user-select: none; -khtml-user-select: none; user-select: none; background:none transparent; white-space:nowrap; }
+.str_wrap.str_active { background:none transparent; }
+.str_move { white-space:nowrap; position:absolute; top:0; left:0; cursor:move; }
+.str_move_clone { display:inline-block; vertical-align:top; position:absolute; left:100%; top:0; }
+.str_vertical .str_move_clone { left:0; top:100%; }
+.str_down .str_move_clone { left:0; bottom:100%; }
+.str_vertical .str_move,
+.str_down .str_move { white-space:normal; width:100%; }
+.str_static .str_move,
+.no_drag .str_move,
+.noStop .str_move{ cursor:inherit; }
+
+/* форма посреди страницы */
+.page-middle-form-box { display: block; width: 100%; }
+.page-middle-form-box-bg { background:url('../images/inline-form-background.jpg') no-repeat scroll center top transparent; height: 317px; margin-top: 30px; }
+.page-middle-form-box .left-side-box { margin:85px 0px 0px 30px; }
+.page-middle-form-box .left-side-box .special-headline { display: block; width: 100%; font-family: 'PlumbCondensed-Bold'; font-weight: normal; font-size:45px; line-height:45px; color:#2e302f; text-transform: uppercase; text-align: left;}
+.page-middle-form-box .left-side-box .info-box { display: block; width: 100%; margin-top:30px; margin-left: 30px; font-family: 'Plumb-Regular'; font-weight: normal; font-size:20px; line-height:27px; color:#2e302f; text-align: left; }
+.page-middle-form-box .form-box { margin:60px 55px 0px 0px; width: 325px; }
+.page-middle-form-box .form-box form { padding-top: 10px; display: block; width: 100%; height: 225px; margin-top:0px; }
+.page-middle-form-box .form-box form input { display: block; border:0px; width: 290px; height: 52px; }
+.page-middle-form-box .form-box form .txt { padding:0px 10px 0px 30px; width: 218px; margin-bottom:10px; font-family: 'Plumb-Regular'; font-weight: normal; font-size:20px; line-height:52px; color:#6f7278; background: none transparent; }
+.page-middle-form-box .form-box form .second { background-position: 0px -63px; }
+.page-middle-form-box .form-box form .submit-btn { margin-top:25px; width: 98%; height: 75px; text-align: center; text-decoration: none; color:#fff; font-family: 'Plumb-Black'; font-weight: normal; font-size:25px; line-height:75px; text-transform: uppercase; text-align: center; text-shadow:1px 1px 1px #e46200; cursor: pointer; background: none transparent; }
+
+/* наша продукция */
+.our-products-box { display: block; width: 98%; margin-top: 25px; }
+.our-products-box-bg { margin-top: 25px; }
+.our-products-box .product { display: block; width: 480px; height: 280px; margin-right: 10px; }
+.our-products-box .product .icon { display: block; width: 235px; height: 200px; margin-right: 5px; background:url('../images/our-catalog-items.jpg') no-repeat scroll left top transparent; }
+.our-products-box .product .description { padding-top: 40px; display: block; width: 240px; font-family: 'Plumb-Regular'; font-weight: normal; font-size:18px; line-height:22px; color:#2e302f; text-transform: none; text-align: left; }
+.our-products-box .product .description .p-headline { display: block; width: 100%; text-align: center; font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; line-height:26px; color:#2e302f; text-transform: uppercase; text-align: left;}
+.our-products-box .product .description .price-info { display: block; margin-top: 10px; margin-right: auto; background:url('../images/get-to-know-price.png') no-repeat transparent; width: 236px; height:46px; text-decoration: none; border:0px; text-indent: -9999px; }
+.our-products-box .p1 .icon {background-position: 0px 0px;}
+.our-products-box .p2 .icon {background-position: -257px 0px;}
+.our-products-box .p3 .icon {background-position: 0px -205px;}
+.our-products-box .p4 .icon {background-position: -257px -205px;}
+.our-products-box .p5 .icon {background-position: 0px -419px;}
+.our-products-box .p6 .icon {background-position: -257px -412px; height: 210px;}
+.our-products-box .p7 .icon {background-position: 0px -643px;}
+.our-products-box .p7 .description { padding-top: 25px; }
+.our-products-box .p8 .icon {background-position: -257px -630px;}
+.our-products-box .p8 .description { padding-top: 3px; }
+
+/* отзывы */
+.our-feedback-box { display: block; width: 87%; margin-top: 10px; }
+.our-feedback-box-bg {background:url('../images/feedback-background.jpg') repeat scroll center top transparent; height: 405px; padding-top:35px;}
+.our-feedback-box-bg .page-headline-box h4 {color: #fff;}
+.our-feedback-box .feedback { display: block; padding-left:50px; padding-right: 40px; width: 780px; background:url('../images/feedback-content-background.png') repeat transparent; padding-bottom: 30px;}
+.our-feedback-box .feedback .photo { display: block; width: 125px; height: 125px; border:0px; position: absolute; margin-top: -20px;}
+.our-feedback-box .feedback .photo { -moz-border-radius: 65px; -webkit-border-radius: 65px; -khtml-border-radius: 65px; border-radius: 65px; }
+.our-feedback-box .feedback .name { display: block; width: 90%; border-bottom: 1px solid #f1a923; margin-left: auto; padding-bottom: 5px;}
+.our-feedback-box .feedback .name span {height: 58px; padding-left: 69px; padding-right: 20px; display: block;font-family: 'PlumbCondensed-Bold'; font-weight: normal; font-size:25px; line-height:58px; color:#fff; text-transform: none; text-align: left; background: none #f1a923;}
+.our-feedback-box .feedback .name .corner { display: block; width: 49px; height: 58px; margin-right: -49px; background:url('../images/feedback-name-rightsidecorner.png') no-repeat transparent;}
+.our-feedback-box .feedback .text { display: block; margin-top: 50px; font-family: 'Plumb-Regular'; font-weight: normal; font-size:18px; line-height:20px; color:#fff; text-transform: none; text-align: left; }
+#feedback-slider {overflow: visible !important;}
+.our-feedback-box .jcarousel-clip { padding-top:20px; height: 340px; }
+.our-feedback-box .jcarousel-next , 
+.our-feedback-box .jcarousel-prev { cursor: pointer; display: block; width: 45px; height: 45px; background:url('../images/feedback-slider-arrows.png') repeat scroll center top transparent; }
+.our-feedback-box .jcarousel-prev {background-position: -1px -1px; margin-top: -45px; margin-left:-55px; position: relative;top: -200px;}
+.our-feedback-box .jcarousel-next {background-position: -45px -47px; margin-top: -45px; float: right; margin-right:-55px; position: relative;top: -200px;}
+.our-feedback-box .jcarousel-prev:hover {background-position: -1px -47px;}
+.our-feedback-box .jcarousel-next:hover {background-position: -45px -1px;}
+
+.five-five-box{padding-top: 65px;background:url('../images/why-us-side-dashed-border-background.png') repeat-y scroll right top transparent; width: 850px;}
+/* 5 проблем */
+.five-problems-box {margin-top: 35px; display: block;width: 100%; background:url('../images/why-us-side-dashed-border-background.png') repeat-y scroll right top transparent;padding-bottom: 30px;}
+.five-problems-box .item {display: block; width: 700px; margin-bottom: 20px;}
+.five-problems-box .item .icon {display: block; width: 43px; height: 42px;background:url('../images/why-us-black-numbers-background.png') repeat scroll left top transparent;font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; text-indent: 7px; line-height:38px; color:#2e302f; text-transform: uppercase; text-align: center;}
+.five-problems-box .item .description {display: block;width: 640px; margin-left:15px;font-family: 'Plumb-Regular'; font-weight: normal; font-size:20px; line-height:25px; color:#2e302f; text-transform: none; text-align: left;}
+.five-problems-box .item .description .headline {display: block;width: 100%;font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; line-height:27px; color:#2e302f; text-transform: uppercase; text-align: left;}
+.separator-why-us-list {margin-left:auto;margin-right: 10%; display: block; width:80%;background:url('../images/why-us-bottom-dashed-border-background.png') repeat-x scroll center top transparent; padding-top: 35px;}
+.right-dashed-corner {display: block; width: 57px; height: 79px;background:url('../images/why-us-side-dashed-right-side-corder-border-background.png') no-repeat scroll left top transparent;position: relative;float: right;margin-top: -44px;}
+.left-dashed-corner {display: block; width:80px; height: 88px;background:url('../images/why-us-side-dashed-left-side-corder-border-background.png') no-repeat scroll left top transparent;position: relative;float: left;margin-top: -103px;}
+.bottom-shade-box {display: block;width: 100%;height: 30px; background:url('../images/arrow-bottom-shade.png') no-repeat scroll center bottom transparent; margin-left: auto;}
+.right-arrow-corner {display: block; width:36px; height: 65px;background:url('../images/why-us-bottom-arrow-icon.png') no-repeat scroll left top transparent;position: relative;float: left;margin-top: -60px;margin-left: -15px;}
+/* 5 причин */ 
+.five-reasons-box {padding-top:35px;display: block;width:80%;background:url('../images/why-us-side-dashed-border-background.png') repeat-y scroll left top #fff;}
+.five-reasons-box .item {display: block; width: 700px; margin-bottom: 20px;margin-left: auto;}
+.five-reasons-box .item .icon {display: block; width: 43px; height: 42px;background:url('../images/why-us-orange-numbers-background.png') repeat scroll left top transparent;font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; text-indent: 7px; line-height:38px; color:#f0af3b; text-transform: uppercase; text-align: center;}
+.five-reasons-box .item .description {display: block;width: 640px; margin-left:15px;font-family: 'Plumb-Regular'; font-weight: normal; font-size:20px; line-height:25px; color:#2e302f; text-transform: none; text-align: left;}
+.five-reasons-box .item .description .headline {display: block;width: 100%;font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; line-height:27px; color:#f0af3b; text-transform: uppercase; text-align: left;}
+
+/* как заказать */
+.how-to-box {display: block;width: 67%;margin-top: 40px;padding-bottom: 30px;}
+.how-to-box-bg {}
+.how-to-box .item {display: block;width: 110px;padding-top: 110px;margin-right: 160px;background:url('../images/how-to-make-order-icons.jpg') no-repeat scroll left top transparent;}
+.how-to-box .item {font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; line-height:24px; color:#2e302f; text-transform: uppercase; text-align: left;}
+.how-to-box .item span {display: block;width: 210%;}
+.how-to-box .i1 {background-position: 0px 0px;}
+.how-to-box .i2 {background-position: -111px 0px;}
+.how-to-box .i3 {background-position: -228px 0px; margin-right: 0px;}
+
+/* подвал */
+.footer-box {display: block; width: 100%;padding-top:25px;}
+.footer-bg {background:url('../images/footer-background.jpg') repeat-x scroll left top transparent; padding-bottom: 20px;}
+.footer-box .logotype-box { display: block; width: 270px; border-right: 1px solid #d0d0d2; padding-right:15px; margin:0px 0px 0px 10px; }
+.footer-box .logotype-box .headline { display: block; font-weight: normal; width: 100%; font-family: 'Plumb-Black'; font-weight: normal; font-size:36px; line-height:36px; color:#2e302f; text-transform: uppercase; }
+.footer-box .logotype-box .headline .orange { color:#f0a922;   }
+.footer-box .logotype-box .headline .second-line { display: block; margin-top:4px; font-weight: normal; font-size:22px; line-height:22px; color: #888; }
+.footer-box .by {font-family: 'Ubuntu-M';font-size: 30px; line-height: 30px; color: #2d2d2d;text-decoration: none;position: relative;top: 15px;}
+.footer-box .by .small {font-size: 18px; line-height: 18px;display: block;}
+.footer-box .by .separator { margin-left: -7px; padding-left: 0px; letter-spacing: -5px; padding-right: 7px;}
+.footer-box .by .separator .left {}
+.footer-box .by .separator .right {color: #5b8bc9; }
+.footer-box .by .colored {color: #5b8bc9;}
+.footer-box .b-card { display: block;width: 320px; padding:0px 15px 0px 15px; border-left:1px solid #fff;border-right: 1px solid #d0d0d2;font-family: 'Plumb-Regular'; font-weight: normal; font-size:14px; line-height:14px; color:#2e302f; text-transform: none; text-align: left;}
+.footer-box .top-contact-box { display: block; width: 340px; margin:0px 0px 0px 0px;border-left:1px solid #fff; }
+.footer-box .top-contact-box span , 
+.footer-box .top-contact-box a { display: block; width: 100%; }
+.footer-box .top-contact-box .adress { font-family: 'Plumb-Regular'; color: #a0a0a0; font-size: 18px; line-height: 18px; text-align: right; }
+.footer-box .top-contact-box .phone { font-family: 'Plumb'; font-weight: normal; font-size:20px; line-height:20px; color:#2e302f; margin-top:10px; margin-bottom:10px; text-align: right; }
+.footer-box .top-contact-box .call-me-back-button { margin-top: -2px; margin-left: auto; background:url('../images/call-me-back-background.png') no-repeat transparent; width: 200px; height:48px; text-decoration: none; border:0px; color:#fff; font-family: 'Plumb-Black'; font-weight: normal; font-size:20px; line-height:48px; text-transform: uppercase; text-align: center; text-shadow:1px 1px 1px #e46200; }
+
+.popup-holder {
+position: relative;
+overflow: hidden;
+height: 0;
+}
+div.lightbox .form{
+	width:231px;
+	background:#e5e6ec;
+	padding:23px 15px 10px 17px;
+}
+div.lightbox .form button{margin-bottom:-17px;}
